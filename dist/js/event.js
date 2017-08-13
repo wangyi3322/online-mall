@@ -1,0 +1,1 @@
+define(function(){return function(){var n={};return{on:function(r,t){n[r]=n[r]||[],n[r].push(t)},fire:function(r,t){if(n[r])for(var e=0;e<n[r].length;e++)n[r][e](Array.prototype.slice.call(arguments,1))}}}()});
