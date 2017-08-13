@@ -1,1 +1,0 @@
-define(["jquery","event","tab","carousel","carousel-show"],function(e,n,o,a,c){new o(e(".menue")),new a(e(".carousel")),new c(e(".flash-show"));var f=["#d7e2f1","#fedfe3","#fae6d6","#e8e6a0","#f5c9ca"];n.on("play",function(n){console.log(f[n]),e("#grounding").css("background-color",f[n])})});
