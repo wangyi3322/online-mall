@@ -301,31 +301,33 @@ ul,li{
 	width: 100%;
 }
 #recommend{
-	margin: 10px 0;
+	margin: 15px 0;
 }
 .production{
 	float: left;
 	margin-right: 10px;
+	width: 485px;
 }
-.ad-big{
-	float: left;
+.hot-ad{
+	width: 130px;
+	display: inline-block;
 	padding: 20px 50px;
 	text-align: center;
 	color: #d783c9;
 	background-color: #f1dced;
     border-radius: 10px 0 0 10px;
 }
-.ad-big .title{
+.hot-ad .title{
 	height: 24px;
     line-height: 24px;
     font-size: 20px;
 }
-.ad-big>img{
+.hot-ad>img{
 	width: 130px;
     height: 130px;
 } 
 .ad-small{
-	float: left;
+	float: right;
 	width: 255px;
     background-color: #f5eef4
 }
@@ -360,14 +362,16 @@ ul,li{
 }
 .other-production{
 	float: left;
-	width: 110px;
-
+	width: 110px;	
 }
-.other-production .ad-big{
+.other-production{
+	float: left;
+}
+.other-production .hot-ad{
  	border-radius: 10px;
  	background-color: #f4efd8;
 }
-.other-production .ad-big>img{
+.other-production .hot-ad>img{
 	width: 110px;
     height: 130px;
 } 
@@ -514,12 +518,12 @@ ul,li{
 	height: 115px;
 
 }
-.middle-content li>img,.left-content>img,.ad-big>img{
+.middle-content li>img,.left-content>img,.hot-ad>img{
 	position: relative;
 	transition:bottom .4s;
 	bottom: 0;
 }
-.middle-content li>img:hover,.left-content>img:hover,.ad-big>img:hover{
+.middle-content li>img:hover,.left-content>img:hover,.hot-ad>img:hover{
 	bottom: 10px;
 }
 .middle-content li h6{
